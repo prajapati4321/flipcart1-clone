@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height: 12vh;
+    background-color:blue;
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 23px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(161, 161, 214);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+width: 30vw;
+height: 23px;
+border-radius: 5px;
+margin :0 16px 0 50px;
+padding: 0 12px;
+}
+.slider{
+    width: 70vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding:  10px 12px;
+    transition: 1s;
+}
+.card h2{
+font-family: 'Courier New', Courier, monospace;
+}
+.card p1{
+color: green;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    z-index: 0;
+    margin:  0px 12px;
+
+}
+header{56
+    position: fixed;
+    height: 58px;
+    background-color: blue;
+    color: white;
+    font-family:'lato',sans-serif;
+    z-index: 1;
+    top:0px;
+}
+.lines{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.card-item :hover{
+transform: scale(1.1);
+}
+.btn1{
+    margin:  0 150px;
+    background-color: white;
+    padding: 5px 30px;
+    color: blue;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+hr
+{
+    color: blue;
+}
+
+
+
+
